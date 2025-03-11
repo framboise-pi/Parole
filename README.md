@@ -13,6 +13,7 @@ A .paz file will contain all data, it is crypted (fernet-key) and protected by a
 ## Data
 site URL | Site name | User nickname(optionnal) | User connection | User password | Comment(optionnal)
 <br>Two buttons: Copy connection | Copy password, to quickly copy/paste these values
+<br>Search functionnality
 
 ## Dependencies
 pip install cryptography pyperclip
