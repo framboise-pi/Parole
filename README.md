@@ -7,8 +7,8 @@ Parole is a password manager using Python and Tkinter (GUI).  It stores data in 
 <br>On opening .paz file, you will be asked for the password.
 
 ## To resume
-A .paz file will contain all data, it is crypted (fernet-key) and protected by a password.
-<br>This way it should be safe as an unkown user, even with the fernet-key, will need the traditionnal password (crypted within the file) to open a .paz file.
+A .paz file will contain all data, it is crypted (fernet-key) and protected by a password (crypted within the file).
+<br>Keep separated parole.py and .paz
 
 ## Data
 site URL | Site name | User nickname(optionnal) | User connection | User password | Comment(optionnal)
