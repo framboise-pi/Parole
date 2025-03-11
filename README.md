@@ -10,6 +10,10 @@ Parole is a password manager using Python and Tkinter (GUI).  It stores data in 
 A .paz file will contain all data, it is crypted (fernet-key) and protected by a password.
 <br>This way it should be safe as an unkown user, even with the fernet-key, will need the traditionnal password (crypted within the file) to open a .paz file.
 
+## Data
+site URL | Site name | User nickname(optionnal) | User connection | User password | Comment(optionnal)
+<br>Two buttons: Copy connection | Copy password, to quickly copy/paste these values
+
 ## Dependencies
 pip install cryptography pyperclip
 
